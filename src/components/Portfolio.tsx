@@ -29,7 +29,7 @@ export const Portfolio = () => {
       <footer className="py-8 bg-tech-gradient-subtle border-t border-border">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground">
-            © 2024 Nour El-Deen Mahmoud. Built with precision and passion for clean code.
+            © 2025 Nour El-Deen Mahmoud. Built with precision and passion for clean code.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
             Software Engineer • Backend (.NET) • Product Owner Trainee

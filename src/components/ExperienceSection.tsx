@@ -4,29 +4,29 @@ import { Building2, Users, Code } from "lucide-react";
 
 const experiences = [
   {
-    title: "Trainee",
+    title: "Product Owner Trainee",
     company: "Sana Soft",
-    type: "Backend Development",
-    icon: <Code className="w-6 h-6" />,
-    description: "Engaged in practical .NET backend development, applying theoretical knowledge to real-world scenarios. My role involved close collaboration with senior engineers, contributing to scalable and efficient solutions.",
+    type: "Product Management",
+    icon: <Building2 className="w-6 h-6" />,
+    description: "Product Owner trainee focused on backlog management, user story creation, and feature prioritization. Duration: July 1 to end of August 2024.",
     highlights: [
-      "Real-world .NET development",
-      "Collaboration with senior engineers", 
-      "Scalable solution architecture",
-      "Clean code practices"
+      "Backlog management",
+      "User story creation", 
+      "Feature prioritization",
+      "Stakeholder alignment"
     ]
   },
   {
-    title: "Product Owner Tasks",
-    company: "Project Development",
-    type: "Product Management",
-    icon: <Building2 className="w-6 h-6" />,
-    description: "Actively participated in product development cycles by creating detailed backlogs, crafting user stories, and assisting with feature prioritization, ensuring alignment with project goals.",
+    title: "Backend Developer",
+    company: "Digital Egypt Pioneers Initiative - DEPI",
+    type: "Backend Development",
+    icon: <Code className="w-6 h-6" />,
+    description: "Backend developer specializing in .NET development, applying clean architecture principles and best practices to build scalable solutions.",
     highlights: [
-      "Backlog management",
-      "User story creation",
-      "Feature prioritization",
-      "Stakeholder alignment"
+      ".NET development",
+      "Clean architecture",
+      "API development",
+      "Database design"
     ]
   },
   {
