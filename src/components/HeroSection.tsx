@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Github, Mail, Linkedin, MessageCircle } from "lucide-react";
-import heroPortrait from "@/assets/hero-portrait.jpg";
 
 export const HeroSection = () => {
   return (
@@ -75,7 +74,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary shadow-tech">
                 <img 
-                  src={heroPortrait} 
+                  src="/lovable-uploads/21647177-4a3a-4ea6-a651-f32a8022ce76.png" 
                   alt="Nour El-Deen Mahmoud - Software Engineer"
                   className="w-full h-full object-cover"
                 />
