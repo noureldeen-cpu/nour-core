@@ -51,6 +51,7 @@ export default {
           blue: "hsl(var(--tech-blue))",
           "blue-light": "hsl(var(--tech-blue-light))",
           purple: "hsl(var(--tech-purple))",
+          green: "hsl(var(--tech-green))",
         },
       },
       backgroundImage: {

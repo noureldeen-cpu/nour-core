@@ -9,6 +9,12 @@ const skillCategories = [
     color: "bg-tech-blue"
   },
   {
+    title: "Frontend & Web",
+    icon: "🎨",
+    skills: ["HTML", "CSS"],
+    color: "bg-tech-green"
+  },
+  {
     title: "Backend Expertise",
     icon: "⚙️",
     skills: ["ASP.NET Core", "REST APIs", "Clean Architecture"],
