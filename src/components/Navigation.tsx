@@ -52,14 +52,29 @@ export const Navigation = () => {
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             {navItems.map((item) => (
               <Button
                 key={item.label}
                 variant="ghost"
                 size="sm"
                 onClick={() => scrollToSection(item.href)}
-                className="text-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                className="text-foreground hover:text-primary hover:bg-primary/10 transition-colors px-3"
+              >
+                {item.label}
+              </Button>
+            ))}
+          </div>
+
+          {/* Tablet Navigation */}
+          <div className="hidden md:flex lg:hidden items-center space-x-0.5">
+            {navItems.map((item) => (
+              <Button
+                key={item.label}
+                variant="ghost"
+                size="sm"
+                onClick={() => scrollToSection(item.href)}
+                className="text-foreground hover:text-primary hover:bg-primary/10 transition-colors px-2 text-xs"
               >
                 {item.label}
               </Button>
