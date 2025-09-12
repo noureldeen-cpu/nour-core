@@ -3,7 +3,7 @@ import { Github, Mail, Linkedin, MessageCircle } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient pt-16">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-tech-blue rounded-full blur-3xl animate-float" />
