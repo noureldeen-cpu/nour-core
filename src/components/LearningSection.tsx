@@ -132,7 +132,7 @@ export const LearningSection = () => {
                                     management."
                                 </p>
                                 <footer className="text-sm opacity-90">
-                                    — Personal Learning Philosophy
+                                    — Personal Learning Philosophy —
                                 </footer>
                             </blockquote>
                         </Card>
